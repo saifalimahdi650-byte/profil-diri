@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Diri - Saif Ali</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+            color: #333;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            background-color: #ffffff;
+            max-width: 750px;
+            width: 100%;
+            padding: 35px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-size: 2em;
+            text-align: center;
+        }
+
+        .profile-img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border: 4px solid #3498db;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        h2, h3 {
+            color: #2980b9;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 8px;
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        p {
+            line-height: 1.7;
+            color: #555;
+            text-align: justify;
+        }
+
+        .list-section {
+            text-align: left;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+            color: #444;
+            line-height: 1.8;
+        }
+
+        .media-container {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            border: 1px solid #e9ecef;
+            text-align: center;
+        }
+
+        .media-container h4 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #495057;
+        }
+
+        video {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        audio {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn-social {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn-social:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        .btn-social.facebook {
+            background-color: #1877f2;
+        }
+
+        .btn-social.facebook:hover {
+            background-color: #145dbf;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Profil Diri Saya</h1>
+
+        <img src="Foto Profil.jpeg" alt="Foto Profil Saya" class="profile-img">
+
+        <h2>Tentang Saya</h2>
+        <p>
+            Halo, nama saya Saif Ali. Saya adalah seorang mahasiswa yang sedang
+            mempelajari berbagai hal di bidang teknologi dan komputer.
+            Saya juga senang belajar hal-hal baru untuk mengembangkan kemampuan saya.
+        </p>
+
+        <div class="list-section">
+            <h2>Hobi Saya</h2>
+            <ul>
+                <li>Bermain game</li>
+                <li>Mendengarkan musik</li>
+                <li>Membaca Buku</li>
+                <li>Belajar teknologi</li>
+            </ul>
+
+            <h2>Pendidikan</h2>
+            <ol>
+                <li>SDN PISANGAN BARU 07</li>
+                <li>SMPN 14 Jakarta</li>
+                <li>SMK Negeri 5 Jakarta</li>
+                <li>Universitas Indraprasta PGRI</li>
+            </ol>
+        </div>
+
+        <h3>Media Pembelajaran (Video & Audio)</h3>
+
+        <!-- Bagian Audio / Suara -->
+        <div class="media-container">
+            <h4>Pemutar Suara / Audio</h4>
+            <audio controls loop>
+                <source src="Audio.mpeg" type="audio/mpeg">
+                Browser Anda tidak mendukung elemen audio.
+            </audio>
+        </div>
+
+        <!-- Bagian Video -->
+        <div class="media-container">
+            <h4>Pemutar Video</h4>
+            <video controls>
+                <source src="jedag jedug.mp4" type="video/mp4">
+                Browser Anda tidak mendukung elemen video.
+            </video>
+        </div>
+
+        <h3>Media Sosial dan Kontak</h3>
+        <div class="social-links">
+            <a href="https://www.instagram.com/saifaliiii_?stkn=bGdodjh4dGVrMG1u" target="_blank" class="btn-social">
+                Instagram Saya
+            </a>
+            <a href="https://www.facebook.com/share/19ZKTwt1Es/" target="_blank" class="btn-social facebook">
+                Facebook Saya
+            </a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
